@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/x-icon" href="/img/logo.png">
+        <title>Best Music Band</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <!-- <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div> -->
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <!-- <div class="container-fluid bg-primary px-5 d-none d-lg-block">
+            <div class="row gx-0">
+                <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center" style="height: 45px;">
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                        <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-inline-flex align-items-center" style="height: 45px;">
+                        <a href="#"><small class="me-3 text-light"><i class="fa fa-user me-2"></i>Register</small></a>
+                        <a href="#"><small class="me-3 text-light"><i class="fa fa-sign-in-alt me-2"></i>Login</small></a>
+                        <div class="dropdown">
+                            <a href="#" class="dropdown-toggle text-light" data-bs-toggle="dropdown"><small><i class="fa fa-home me-2"></i> My Dashboard</small></a>
+                            <div class="dropdown-menu rounded">
+                                <a href="#" class="dropdown-item"><i class="fas fa-user-alt me-2"></i> My Profile</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-comment-alt me-2"></i> Inbox</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-bell me-2"></i> Notifications</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-cog me-2"></i> Account Settings</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-power-off me-2"></i> Log Out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"> 
+                <a href="" class="navbar-brand p-0"> 
+                    <h1 class="m-0"></h1> 
+                    <img src="img/logo.png"  alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link ">Home</a>
+                       <!-- <a href="#" class="nav-item nav-link">About</a>
+                        <a href="services.html" class="nav-item nav-link">Services</a>
+                        <a href="packages.html" class="nav-item nav-link">Packages</a>
+                        <a href="blog.html" class="nav-item nav-link">Blog</a> 
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="#" class="dropdown-item">Products</a>
+                                <a href="#" class="dropdown-item">Gallery</a>
+                            </div>
+                        </div>
+                        <a href="#" class="nav-item nav-link">Contact</a> -->
+                    </div> 
+                    <a href="#contactform" class="btn btn-primary rounded-pill py-2 px-4 ms-lg-4">Register Now</a>
+               <!-- </div>-->
+            </nav> 
+
+            <!-- Carousel Start -->
+            <div class="carousel-header">
+                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="img/bandhome0.jpg" class="img-fluid" alt="Image">
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px;">
+                                    <!-- <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Explore The World</h4> -->
+                                    <h1 class="display-2 text-capitalize text-white mb-4">LET'S JOIN CONCERT OF THE BIGGEST BAND <br><span style="color:blue">IN THE WORLD</span></h1>
+                                   <!-- <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                    </p>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="#">Discover Now</a>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/bandhome1.jpg" class="img-fluid" alt="Image">
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px;">
+                                    <!-- <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Explore The World</h4>-->
+                                    <h1 class="display-2 text-capitalize text-white mb-4"><span style="color:blue">Celebrating</span> Music, Art and Culture</h1>
+                                    <!-- <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                    </p>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="#">Discover Now</a>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/bandhome2.jpg" class="img-fluid" alt="Image">
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px;">
+                                    <!-- <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Explore The World</h4>-->
+                                    <h1 class="display-2 text-capitalize text-white mb-4">Create Unforgettable <span style="color:blue">Memories</span></h1>
+                                  <!--  <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                    </p>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="#">Discover Now</a>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon btn bg-primary" aria-hidden="false"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                        <span class="carousel-control-next-icon btn bg-primary" aria-hidden="false"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- Carousel End -->
+        </div>
+        <!-- <div class="container-fluid search-bar position-relative" style="top: -50%; transform: translateY(-50%);">
+            <div class="container">
+                <div class="position-relative rounded-pill w-100 mx-auto p-5" style="background: rgba(19, 53, 123, 0.8);">
+                    <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Eg: Thailand">
+                    <button type="button" class="btn btn-primary rounded-pill py-2 px-4 position-absolute me-2" style="top: 50%; right: 46px; transform: translateY(-50%);">Search</button>
+                </div>
+            </div>
+        </div> -->
+        <!-- Navbar & Hero End -->
+
+        <!-- About Start -->
+        <div class="container-fluid about py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5">
+                        <div class="h-100" style="border: 50px solid; border-color: transparent #13357B transparent #13357B;">
+                            <img src="img/music-info.jpg" class="img-fluid w-100 h-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-7" style="background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(img/about-img-1.png);">
+                        <h5 class="section-about-title pe-3">About Us</h5>
+                        <h1 class="mb-4">Dance with the rhythm <span class="text-primary"></span>immersed in the melody </h1>
+                        <p class="mb-4">Live Concerts and Past Events
+                            Welcome to the electrifying world of live music brought to you by [Your Band's Name]! Dive into the rhythm, feel the energy, and experience the magic of our unforgettable concerts and past events. From intimate gatherings to massive festivals, we've rocked stages and delighted audiences across the globe. Here's a glimpse into our musical journey.</p>
+                        <p class="mb-4"> Join Us for the Next Chapter!
+                            Don't miss out on the excitement! Follow us on social media and subscribe to our newsletter for the latest updates on upcoming concerts, exclusive behind-the-scenes content, and more. Join the [Your Band's Name] community and let's make memories together through the power of music!</p>
+                        <!-- <div class="row gy-2 gx-4 mb-4">
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>First Class Flights</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Handpicked Hotels</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>5 Star Accommodations</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Latest Model Vehicles</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>150 Premium City Tours</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>24/7 Service</p>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="">Read More</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!--  -->
+            
+                <div class="mx-auto text-center " >
+                    <!-- <h5 class="section-title px-3">Services</h5> -->
+                    <h1 class=""> Past Event </h1> 
+                </div>
+                <div> </div>
+                <div class="container1">
+            <div class="column">
+              <!-- <h2></h2> -->
+              <h3> 1. Summer Jam Fest 2023 </h3>
+                <p>Date: July 15, 2023</p>
+                <p>Location: Central Park, New York City </p>
+                
+                <p>Highlights: Our headlining performance at Summer Jam Fest left the crowd roaring for more! With an explosive setlist featuring fan favorites and new hits, we ignited the stage and created an unforgettable atmosphere of pure musical bliss.</p>
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu mi vel nunc aliquet gravida. Duis ac libero sit amet ipsum eleifend laoreet.</p> -->
+            </div>
+            <div class="column">
+              <h3>2. Global Groove Tour 2022</h3>
+                <p>Dates: March - October 2022</p>
+                <p>Locations: Various cities worldwide</p>
+                <p>Highlights: Embarking on our Global Groove Tour was a whirlwind adventure! From iconic venues to hidden gems, we traveled the globe, spreading our love for music and connecting with fans from diverse cultures and backgrounds.</p>
+                
+            </div>
+            <div class="column">
+              <h3>3. Sunset Serenade Series</h3>
+
+                <p>Dates: Every Friday from May to August 2021</p>
+               <p> Location: Beachfront Pavilion, California</p>
+               <p> Highlights: The Sunset Serenade Series was a summer to remember! Against the backdrop of stunning sunsets and crashing waves, we serenaded audiences with acoustic melodies and soulful tunes, creating magical moments under the open sky.</p>
+              
+            </div>
+            <div class="column">
+              <h3>4.Winter Wonder Concert</h3>
+
+               <p> Date: December 18, 2020</p>
+              <p>  Location: Snowy Lodge, Colorado</p>
+              <p>  Highlights: Amidst the snow-capped mountains, we hosted a Winter Wonderland Concert that warmed hearts and lifted spirits. From holiday classics to our own unique renditions, we celebrated the season with music, laughter, and joy.</p>
+             
+            </div>
+        </div>
+
+        
+        <!--  -->
+
+
+<!-- Horizontal Image Start  -->
+<div class="galleryhome container-fluid bg-light service py-5">
+    <div class="container py-5">
+        <div class="mx-auto text-center mb-5" style="max-width: 900px;">
+            <h5 class="section-title px-3">Services</h5>
+            <h1 class="mb-0">Products</h1>
+        </div>
+    <div class="image-container">
+        <img src="img/im1.jpg" alt="Image 1" class="image" id="im1">
+        <img src="img/im2.jpg" alt="Image 2" class="image" id="im" >
+        <img src="img/im3.jpg" alt="Image 3" class="image" id="im1">
+        <img src="img/im4.jpg" alt="Image 4" class="image" id="im">
+        <img src="img/im5.jpg" alt="Image 3" class="image" id="im1">
+
+    </div>
+</div>
+
+<!-- Horizontal Image End -->
+
+        
+
+        
+
+       
+
+       
+
+        <!-- Gallery Start -->
+        <!-- <div class="container-fluid gallery py-5 my-5">
+            <div class="mx-auto text-center mb-5" style="max-width: 900px;">
+                <h5 class="section-title px-3">Our Gallery</h5>
+                <h1 class="mb-4">Music</h1>
+                <!-- <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore nam, architecto doloremque velit explicabo? Voluptate sunt eveniet fuga eligendi! Expedita laudantium fugiat corrupti eum cum repellat a laborum quasi. 
+                </p>
+            </div>
+            <div class="tab-class text-center">
+                <!-- <ul class="nav nav-pills d-inline-flex justify-content-center mb-5">
+                    <li class="nav-item">
+                        <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill active" data-bs-toggle="pill" href="#GalleryTab-1">
+                            <span class="text-dark" style="width: 150px;">All</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="d-flex py-2 mx-3 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#GalleryTab-2">
+                            <span class="text-dark" style="width: 150px;">World tour</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#GalleryTab-3">
+                            <span class="text-dark" style="width: 150px;">Ocean Tour</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#GalleryTab-4">
+                            <span class="text-dark" style="width: 150px;">Summer Tour</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#GalleryTab-5">
+                            <span class="text-dark" style="width: 150px;">Sport Tour</span>
+                        </a>
+                    </li>
+                </ul> 
+                <div class="tab-content">
+                    <div id="GalleryTab-1" class="tab-pane fade show p-0 active">
+                        <div class="row g-2">
+                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                                <div class="gallery-item h-100">
+                                    <img src="img/mgally0.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                    <div class="gallery-content">
+                                        <div class="gallery-info">
+                                            <h5 class="text-white text-uppercase mb-2"></h5>
+                                            <a href="#" class="btn-hover text-white"></a>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-plus-icon">
+                                        <a href="img/mgally0.jpg" data-lightbox="gallery-1" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                                <div class="gallery-item h-100">
+                                    <img src="img/mgally2.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                    <div class="gallery-content">
+                                        <div class="gallery-info">
+                                            <h5 class="text-white text-uppercase mb-2"></h5>
+                                            <a href="#" class="btn-hover text-white"></a>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-plus-icon">
+                                        <a href="img/mgally2.jpg" data-lightbox="gallery-2" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                                <div class="gallery-item h-100">
+                                    <img src="img/mgally1.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                    <div class="gallery-content">
+                                        <div class="gallery-info">
+                                            <h5 class="text-white text-uppercase mb-2"></h5>
+                                            <a href="#" class="btn-hover text-white"></a>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-plus-icon">
+                                        <a href="img/mgally1.jpg" data-lightbox="gallery-3" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                                <div class="gallery-item h-100">
+                                    <img src="img/mgally0.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                    <div class="gallery-content">
+                                        <div class="gallery-info">
+                                            <h5 class="text-white text-uppercase mb-2"></h5>
+                                            <a href="#" class="btn-hover text-white"></a>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-plus-icon">
+                                        <a href="img/mgally0.jpg" data-lightbox="gallery-4" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                                <div class="gallery-item h-100">
+                                    <img src="img/mgally2.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                    <div class="gallery-content">
+                                        <div class="gallery-info">
+                                            <h5 class="text-white text-uppercase mb-2"></h5>
+                                            <a href="#" class="btn-hover text-white"></a>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-plus-icon">
+                                        <a href="img/mgally2.jpg" data-lightbox="gallery-5" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                                <div class="gallery-item h-100">
+                                    <img src="img/mgally1.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                    <div class="gallery-content">
+                                        <div class="gallery-info">
+                                            <h5 class="text-white text-uppercase mb-2"></h5>
+                                            <a href="#" class="btn-hover text-white"></a>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-plus-icon">
+                                        <a href="img/mgally1.jpg" data-lightbox="gallery-6" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                                <div class="gallery-item h-100">
+                                    <img src="img/gallery-7.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                    <div class="gallery-content">
+                                        <div class="gallery-info">
+                                            <h5 class="text-white text-uppercase mb-2"></h5>
+                                            <a href="#" class="btn-hover text-white"></a>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-plus-icon">
+                                        <a href="img/gallery-7.jpg" data-lightbox="gallery-7" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+                                <div class="gallery-item h-100">
+                                    <img src="img/gallery-8.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                    <div class="gallery-content">
+                                        <div class="gallery-info">
+                                            <h5 class="text-white text-uppercase mb-2"></h5>
+                                            <a href="#" class="btn-hover text-white"></a>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-plus-icon">
+                                        <a href="img/gallery-8.jpg" data-lightbox="gallery-8" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                                <div class="gallery-item h-100">
+                                    <img src="img/gallery-9.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                    <div class="gallery-content">
+                                        <div class="gallery-info">
+                                            <h5 class="text-white text-uppercase mb-2"></h5>
+                                            <a href="#" class="btn-hover text-white"></a>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-plus-icon">
+                                        <a href="img/gallery-9.jpg" data-lightbox="gallery-9" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+                                <div class="gallery-item h-100">
+                                    <img src="img/gallery-10.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                    <div class="gallery-content">
+                                        <div class="gallery-info">
+                                            <h5 class="text-white text-uppercase mb-2"></h5>
+                                            <a href="#" class="btn-hover text-white"></a>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-plus-icon">
+                                        <a href="img/gallery-10.jpg" data-lightbox="gallery-10" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <!-- <div id="GalleryTab-2" class="tab-pane fade show p-0">
+                        <div class="row g-2">
+                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                                <div class="gallery-item h-100">
+                                    <img src="img/gallery-2.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                    <div class="gallery-content">
+                                        <div class="gallery-info">
+                                            <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                            <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-plus-icon">
+                                        <a href="img/gallery-2.jpg" data-lightbox="gallery-2" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                                <div class="gallery-item h-100">
+                                    <img src="img/gallery-3.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                    <div class="gallery-content">
+                                        <div class="gallery-info">
+                                            <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                            <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-plus-icon">
+                                        <a href="img/gallery-3.jpg" data-lightbox="gallery-3" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div id="GalleryTab-3" class="tab-pane fade show p-0">
+                        <div class="row g-2">
+                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                                <div class="gallery-item h-100">
+                                    <img src="img/gallery-2.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                    <div class="gallery-content">
+                                        <div class="gallery-info">
+                                            <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                            <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-plus-icon">
+                                        <a href="img/gallery-2.jpg" data-lightbox="gallery-2" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                                <div class="gallery-item h-100">
+                                    <img src="img/gallery-3.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                    <div class="gallery-content">
+                                        <div class="gallery-info">
+                                            <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                            <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-plus-icon">
+                                        <a href="img/gallery-3.jpg" data-lightbox="gallery-3" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div id="GalleryTab-4" class="tab-pane fade show p-0">
+                        <div class="row g-2">
+                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                                <div class="gallery-item h-100">
+                                    <img src="img/gallery-2.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                    <div class="gallery-content">
+                                        <div class="gallery-info">
+                                            <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                            <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-plus-icon">
+                                        <a href="img/gallery-2.jpg" data-lightbox="gallery-2" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                                <div class="gallery-item h-100">
+                                    <img src="img/gallery-3.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                    <div class="gallery-content">
+                                        <div class="gallery-info">
+                                            <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                            <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-plus-icon">
+                                        <a href="img/gallery-3.jpg" data-lightbox="gallery-3" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>-->
+                    <!-- <div id="GalleryTab-5" class="tab-pane fade show p-0">
+                        <div class="row g-2">
+                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                                <div class="gallery-item h-100">
+                                    <img src="img/gallery-2.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                    <div class="gallery-content">
+                                        <div class="gallery-info">
+                                            <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                            <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-plus-icon">
+                                        <a href="img/gallery-2.jpg" data-lightbox="gallery-2" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-2">
+                                <div class="gallery-item h-100">
+                                    <img src="img/gallery-3.jpg" class="img-fluid w-100 h-100 rounded" alt="Image">
+                                    <div class="gallery-content">
+                                        <div class="gallery-info">
+                                            <h5 class="text-white text-uppercase mb-2">World Tour</h5>
+                                            <a href="#" class="btn-hover text-white">View All Place <i class="fa fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="gallery-plus-icon">
+                                        <a href="img/gallery-3.jpg" data-lightbox="gallery-3" class="my-auto"><i class="fas fa-plus fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div> -->
+        <!-- Gallery End -->
+
+        <!-- Tour Booking Start -->
+        <div class="container-fluid booking py-5" id="contactform">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <h5 class="section-booking-title pe-3">Book Now</h5>
+                        <h1 class="text-white mb-4">Send Your Message</h1>
+                        <!-- <p class="text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime ullam esse fuga blanditiis accusantium pariatur quis sapiente, veniam doloribus praesentium? Repudiandae iste voluptatem fugiat doloribus quasi quo iure officia.
+                        </p>
+                        <p class="text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maxime ullam esse fuga blanditiis accusantium pariatur quis sapiente, veniam doloribus praesentium? Repudiandae iste voluptatem fugiat doloribus quasi quo iure officia.
+                        </p> -->
+                        <!-- <a href="#" class="btn btn-light text-primary rounded-pill py-3 px-5 mt-2">Read More</a> -->
+                    </div>
+                    <div class="col-lg-6">
+                        <!-- <h1 class="text-white mb-3">Book A Tour Deals</h1>
+                        <p class="text-white mb-4">Get <span class="text-warning">50% Off</span> On Your First Adventure Trip With Travela. Get More Deal Offers Here.</p> -->
+                        <form name="form data">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control bg-white border-0" name="firstName" id="firstName" placeholder="Your First Name">
+                                        <label for="firstName">First Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control bg-white border-0" name="lastName" id="lastName" placeholder="Your Last Name">
+                                        <label for="lastName">Last Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating date" id="date3" data-target-input="nearest">
+                                        <input type="email" class="form-control bg-white border-0" name="email" id="email" placeholder="Email ID">
+                                        <label for="email">Email ID</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="phone" class="form-control bg-white border-0" name="phone" id="phone" placeholder="Your Mobile Number">
+                                        <label for="phone">Mobile Number</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating date" id="date3" data-target-input="nearest">
+                                        <input type="city" class="form-control bg-white border-0" name="city" id="city" placeholder="Your City">
+                                        <label for="city">City</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <select class="form-select bg-white border-0" name="CategoriesSelect" id="CategoriesSelect">
+                                            <option value="Solo Band">Solo Band</option>
+                                            <option value="Live Concert">Live Concert</option>
+                                            <option value="franchise">Franchise</option>
+                                            <!-- <option value="EEE">EEE</option>
+                                            <option value="E&I">E&I</option>
+                                            <option value="ECE">ECE</option> -->
+                                            <option value="Others">Others</option>
+                                        </select>
+                                        <label for="CategoriesSelect">Category</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control bg-white border-0" name="message" placeholder="Special Request" id="message" style="height: 100px"></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary text-white w-100 py-3" type="submit">SEND </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwpB2DMMEmko0RaDJXDhRk7mwSMrjw7HJhbUFTqhucg7kE-KBiV64kVxmLxglWWMUi6dA/exec'
+            const form = document.forms['form data']
+            const msg = document.getElementById("msg")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+              .then(response => alert("Your message was sent successfully."))
+              .then(()=> {form.reset(); })
+                // .then(response => {
+                //     msg.innerHTML= "Message sent successfully"
+                //     setTimeout(function(){
+                //         msg.innerHTML=""
+                //     },5000)
+                //     form.reset()
+                // })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+        <!-- Tour Booking End -->
+
+       
+
+        
+
+        <!-- Testimonial Start -->
+        <!-- <div class="container-fluid testimonial py-5">
+            <div class="container py-5">
+                <div class="mx-auto text-center mb-5" style="max-width: 900px;">
+                    <h5 class="section-title px-3">Testimonial</h5>
+                    <h1 class="mb-0">Our Clients Say!!!</h1>
+                </div>
+                <div class="testimonial-carousel owl-carousel">
+                    <div class="testimonial-item text-center rounded pb-4">
+                        <div class="testimonial-comment bg-light rounded p-4">
+                            <p class="text-center mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis nostrum cupiditate, eligendi repellendus saepe illum earum architecto dicta quisquam quasi porro officiis. Vero reiciendis,
+                            </p>
+                        </div>
+                        <div class="testimonial-img p-1">
+                            <img src="img/testimonial-1.jpg" class="img-fluid rounded-circle" alt="Image">
+                        </div>
+                        <div style="margin-top: -35px;">
+                            <h5 class="mb-0">John Abraham</h5>
+                            <p class="mb-0">New York, USA</p>
+                            <div class="d-flex justify-content-center">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center rounded pb-4">
+                        <div class="testimonial-comment bg-light rounded p-4">
+                            <p class="text-center mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis nostrum cupiditate, eligendi repellendus saepe illum earum architecto dicta quisquam quasi porro officiis. Vero reiciendis,
+                            </p>
+                        </div>
+                        <div class="testimonial-img p-1">
+                            <img src="img/testimonial-2.jpg" class="img-fluid rounded-circle" alt="Image">
+                        </div>
+                        <div style="margin-top: -35px;">
+                            <h5 class="mb-0">John Abraham</h5>
+                            <p class="mb-0">New York, USA</p>
+                            <div class="d-flex justify-content-center">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center rounded pb-4">
+                        <div class="testimonial-comment bg-light rounded p-4">
+                            <p class="text-center mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis nostrum cupiditate, eligendi repellendus saepe illum earum architecto dicta quisquam quasi porro officiis. Vero reiciendis,
+                            </p>
+                        </div>
+                        <div class="testimonial-img p-1">
+                            <img src="img/testimonial-3.jpg" class="img-fluid rounded-circle" alt="Image">
+                        </div>
+                        <div style="margin-top: -35px;">
+                            <h5 class="mb-0">John Abraham</h5>
+                            <p class="mb-0">New York, USA</p>
+                            <div class="d-flex justify-content-center">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item text-center rounded pb-4">
+                        <div class="testimonial-comment bg-light rounded p-4">
+                            <p class="text-center mb-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis nostrum cupiditate, eligendi repellendus saepe illum earum architecto dicta quisquam quasi porro officiis. Vero reiciendis,
+                            </p>
+                        </div>
+                        <div class="testimonial-img p-1">
+                            <img src="img/testimonial-4.jpg" class="img-fluid rounded-circle" alt="Image">
+                        </div>
+                        <div style="margin-top: -35px;">
+                            <h5 class="mb-0">John Abraham</h5>
+                            <p class="mb-0">New York, USA</p>
+                            <div class="d-flex justify-content-center">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Testimonial End -->
+
+        <!-- Subscribe Start -->
+        <!-- <div class="container-fluid subscribe py-5">
+            <div class="container text-center py-5">
+                <div class="mx-auto text-center" style="max-width: 900px;">
+                    <h5 class="subscribe-title px-3">Subscribe</h5>
+                    <h1 class="text-white mb-4">Our Newsletter</h1>
+                    <p class="text-white mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore nam, architecto doloremque velit explicabo? Voluptate sunt eveniet fuga eligendi! Expedita laudantium fugiat corrupti eum cum repellat a laborum quasi.
+                    </p>
+                    <div class="position-relative mx-auto">
+                        <input class="form-control border-primary rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 px-4 mt-2 me-2">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Subscribe End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Get In Touch</h4>
+                           
+                            
+                        </div>
+                    </div>
+                     <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <a href=""><i class="fas fa-home me-2"></i> Bangalore, Karnataka, India</a>
+                       <!--     <h4 class="mb-4 text-white">Company</h4>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> About</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Careers</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Blog</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Press</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Gift Cards</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Magazine</a> -->
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <a href=""><i class="fas fa-envelope me-2"></i> leapcamp@info.in</a>
+                            <a href=""><i class="fas fa-phone me-2"></i> +919535311199</a>
+                            <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +919900966943</a>
+                            
+                            <!-- <h4 class="mb-4 text-white">Support</h4>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Contact</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Legal Notice</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Terms and Conditions</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Sitemap</a>
+                            <a href=""><i class="fas fa-angle-right me-2"></i> Cookie policy</a> -->
+                        </div>
+                    </div> 
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <div class="row gy-3 gx-2 mb-4">
+                                <!-- <div class="col-xl-6">
+                                    
+                                </div>
+                                <div class="col-xl-6">
+                                    
+                                </div> -->
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-share fa-2x text-white me-2"></i>
+                                <a class="btn-square btn btn-primary rounded-circle mx-1" href="https://www.facebook.com/ilabs2021"><i class="fab fa-facebook-f"></i></a>
+                                <!-- <a class="btn-square btn btn-primary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a> -->
+                                <a class="btn-square btn btn-primary rounded-circle mx-1" href="https://www.instagram.com/leapcamp.in?igsh=MXhtdzRnNHd6YXJlaw=="><i class="fab fa-instagram"></i></a>
+                                <a class="btn-square btn btn-primary rounded-circle mx-1" href="https://www.linkedin.com/company/ilabs2021/"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright text-body py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-end mb-md-0">
+                        <i class="fas fa-copyright me-2"></i><a class="text-white" href="#"></a>All right reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                        <a class="text-white" href=""> Influencer Labs</a> 
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
